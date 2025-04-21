@@ -1,0 +1,61 @@
+## Ignore ASP.NET Core and Visual Studio files
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# User-specific files from JetBrains Rider
+.idea/
+
+# User-specific files from Visual Studio Code
+.vscode/
+
+# Windows Installer files
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+Desktop.ini
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Ignore Build Folders
+bin/
+obj/
+
+# User-specific files from Visual Studio for Mac
+.vsconfig
+
+# .NET Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core Publish Folder
+publish/
+
+# Npm package directory
+node_modules/
+
+# ASP.NET Core web application secrets file
+secrets.json
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# .NET SDK folder
+.dotnet/
+
+# .NET runtime
+*.dll
+*.pdb
+
+# Windows Installer files
+*.cab
+/.vs

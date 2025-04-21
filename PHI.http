@@ -1,0 +1,6 @@
+@PHI_HostAddress = http://localhost:5230
+
+GET {{PHI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
