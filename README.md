@@ -58,3 +58,22 @@ order details:
 - complete blood count (cbc)
 - comprehensive metabolic panel (cmp)
 ```
+
+2. Duplicate PHI
+```yaml
+Patient Name: John Doe
+Date of Birth: 01/23/1980
+Social Security Number: 123-45-6789
+
+Patient Name: John Doe
+Date of Birth: 01/23/1980
+Social Security Number: 123-45-6789
+```
+
+3. Only Medical Information: Input a file that contains only medical information, such as medical record numbers and order details.
+```yaml
+Medical Record Number: MRN-0012345
+Order Details:
+- Complete Blood Count (CBC)
+- Comprehensive Metabolic Panel (CMP)
+```
