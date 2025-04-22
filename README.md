@@ -35,3 +35,26 @@ Example configuration in `appsettings.json`:
   }
 }
 ```
+
+## Assumptions
+The system only processes text files (.txt format). Any other file format is ignored.
+When PHI is found, the system replaces the sensitive data with asterisks (**********),
+The system is case-insensitive when identifying PHI information
+Request and Processed files are for auditing purposes.
+The system validates that the file is non-empty and contains content before processing.
+The system handles errors, such as invalid file formats or issues during the reading
+
+## Test Cases
+1. Lowercase PHI: Input a file with all PHI content in lowercase letters.
+```yaml
+patient name: john doe
+date of birth: 01/23/1980
+social security number: 123-45-6789
+address: 123 main st, anytown, usa
+phone number: (555) 123-4567
+email: john.doe@example.com
+medical record number: mrn-0012345
+order details:
+- complete blood count (cbc)
+- comprehensive metabolic panel (cmp)
+```
